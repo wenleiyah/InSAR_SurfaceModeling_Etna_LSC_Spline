@@ -1,7 +1,10 @@
 # InSAR 3D Surface Modeling of Mt. Etna
 
 ## Overview
-This repository contains MATLAB scripts and helper functions for the 3D reconstruction and **spatial correlation analysis** of ground deformation fields over **Mount Etna (Italy)** using **Persistent Scatterer Interferometric SAR (PS-InSAR)** observations.
+
+This repository was developed as a **course project** for the *Geospatial Data Analysis* class (A.Y. 2024/2025) at Politecnico di Milano, supervised by **Prof. Giovanna Venuti** and **Prof. Mirko Reguzzoni**.
+
+This repository contains MATLAB scripts for the 3D reconstruction and **spatial correlation analysis** of ground deformation fields over **Mount Etna (Italy)** using **Persistent Scatterer Interferometric SAR (PS-InSAR)** observations.
 
 The workflow integrates **statistical spatial modeling**, surface reconstruction, and **covariance-based correlation analysis** to jointly estimate ground deformation and its uncertainty structure.
 
@@ -93,4 +96,4 @@ https://egms.land.copernicus.eu
 Data © European Union, 2023 — contains modified Copernicus Sentinel data (2019–2023), processed by the EGMS service.
 
 - **Methodology:**
-The workflow integrates the geoSplinter package and the Least Squares Collocation (LSC) framework developed by Giovanna Venuti and Mirko Reguzzoni, Politecnico di Milano.
+The workflow integrates the geoSplinter package and the Least Squares Collocation (LSC) framework developed by Giovanna Venuti and Mirko Reguzzoni in Geospatial Data Analysis course, Politecnico di Milano.
